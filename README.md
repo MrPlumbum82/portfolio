@@ -16,3 +16,6 @@ http://www.adhamdannaway.com/blog
 http://keithclark.co.uk/articles/
 https://jonny.me/
 http://www.kathrynmcclintock.com/
+
+#### New Finds
+http://aslanbakan.com/
