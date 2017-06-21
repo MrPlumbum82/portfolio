@@ -97,3 +97,30 @@ activebackgrounds
  - Projects
  - Blogs
  - Game Portal (Comming Soon)
+
+## RoadMap
+
+###v0.1
+  - Landing Page 100 Percent 
+  - About Me, plain text, nice new para (resume button)
+  - Skills palin text
+  - Contact, Skype, Github, Linkedin
+  - Fix the scroll
+  - Responsiveness
+
+###v0.2
+  - Intercative text color change or popup on the landing page, letters.js
+  - Better skills, interactive
+
+###v0.3
+  - About Me, Two panels, para and three buttons for resume, gitlab and linkin
+  - Contact form and better buttons for contact like skype, twitter, others?
+
+###v0.4
+  - About Me, Add three more pannels, Games, Reading, Music
+  - Scroll.js
+
+###v0.5
+  - Better color scheme?
+  - Add the new subdomain, projects.sadanmallhi.com
+
