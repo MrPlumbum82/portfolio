@@ -24,7 +24,7 @@ $('.navbar-collapse ul li a').click(function() {
     $(".navbar-collapse").collapse('hide');
 });
 
-// particlesJS.load(@dom-id, @path-json, @callback (optional)); 
+// particlesJS.load(@dom-id, @path-json, @callback (optional));
 //Home
 particlesJS.load('home-particles', 'particles/home_particle.json', function() {
     // console.log('callback - particles.js config loaded');
@@ -45,28 +45,28 @@ var whoAmIArrayTech = [
     "My name's Sadan. <br> I'm a Full-Stack Web Developer",
     "My name's Sadan. <br> I'm a DevOps Engineer",
     "My name's Sadan. <br> I'm a Penetration Tester",
-    "My name's Sadan. <br> I'm a Linux Server Admin",
     "My name's Sadan. <br> I'm a Blockchain Engineer",
+    "My name's Sadan. <br> I'm a JavaScript Developer",
     ];
 
 var whoAmIArrayKindaTech = [
     "My name's Sadan. <br> I'm a Computer Enthusiast",
-    "My name's Sadan. <br> I'm a Video Game Nerd",
-    "My name's Sadan. <br> I'm a Vimposter",
-    "My name's Sadan. <br> I'm an Introvert",
-    "My name's Sadan. <br> I'm a C fanboy",
+    "My name's Sadan. <br> I'm a Computer Scientist",
+    "My name's Sadan. <br> I'm a Linux Server Admin",
+    "My name's Sadan. <br> I'm an Open Source Software Enthusiast",
+    "My name's Sadan. <br> I'm an Indie Game Developer ",
     ];
 
 var whoAmIArrayFunny = [
-    "My name's Sadan. <br> I'm a pro Alistar (moo)",
-    "My name's Sadan. <br> I'm Gosu at StarCraft (ggnore)",
+    "My name's Sadan. <br> I'm a Video Game Nerd",
     "My name's Sadan. <br> I'm a Terrible Dancer ᕕ( ᐛ )ᕗ",
-    "My name's Sadan. <br> I'm a pro memester ( ͡° ͜ʖ ͡°)",
-    "My name's Sadan. <br> It's pronounced Jif (Soft G)",
+    "My name's Sadan. <br> I'm a Pro Memester ( ͡° ͜ʖ ͡°)",
+    "My name's Sadan. <br> I'm an Introvert",
+    "My name's Sadan. <br> It's pronounced JIF (Soft G)",
     ];
 
 function getRandNum(){
-   return Math.floor(Math.random()*5); 
+   return Math.floor(Math.random()*5);
 }
 
 // save format
