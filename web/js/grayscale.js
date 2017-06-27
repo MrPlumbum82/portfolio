@@ -18,6 +18,7 @@ $(function() {
         event.preventDefault();
     });
 });
+
 // Closes the Responsive Menu on Menu Item Click
 $('.navbar-collapse ul li a').click(function() {
     $(".navbar-collapse").collapse('hide');
@@ -33,6 +34,12 @@ particlesJS.load('bg-particles', 'particles/bg_particle.json', function() {
     // console.log('callback - particles.js config loaded');
 });
 
+var safeWhoAmiIArray = [
+    "I'm a Full-Stack Web Developer",
+    "I'm a Penetration Tester",
+    "I'm a Blockchain Engineer",
+    "I'm a Terrible Dancer ᕕ( ᐛ )ᕗ",
+    ]
 
 var whoAmIArrayTech = [
     "My name's Sadan. <br> I'm a Full-Stack Web Developer",
@@ -62,13 +69,23 @@ function getRandNum(){
    return Math.floor(Math.random()*5); 
 }
 
+// save format
 function aboutMe(){
     $(".element").typed({
-        strings: ["^3000 "+whoAmIArrayTech[getRandNum()], whoAmIArrayKindaTech[getRandNum()], whoAmIArrayFunny[getRandNum()], "¯\\_(ツ)_/¯"],
-        typeSpeed: 0,
+        strings: [safeWhoAmiIArray[0], safeWhoAmiIArray[1], safeWhoAmiIArray[2], safeWhoAmiIArray[3], "¯\\_(ツ)_/¯"],
+        typeSpeed: 50,
         loop: false,
     });
 };
+
+// Adventurious Typed.js style
+// function aboutMe(){
+//     $(".element").typed({
+//         strings: ["^3000 "+whoAmIArrayTech[getRandNum()], whoAmIArrayKindaTech[getRandNum()], whoAmIArrayFunny[getRandNum()], "¯\\_(ツ)_/¯"],
+//         typeSpeed: 0,
+//         loop: false,
+//     });
+// };
 
 // Selecting the container element
 var el = document.querySelector('.my-name-text');
@@ -130,7 +147,8 @@ var newOptions = {
     easing: d3_ease.easeCircleInOut.ease,
     individualDelays: false,
     callback: function(){
-        myText.hide({callback:function(){myWelText.show({callback:aboutMe()});$(".my-name-text").hide();$(".my-welcome-text").show();}});
+        // myText.hide({callback:function(){myWelText.show({callback:aboutMe()});$(".my-name-text").hide();$(".my-welcome-text").show();}});
+        aboutMe();
     }
 };
 // These new options will override the options defined in the initialization

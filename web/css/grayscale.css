@@ -229,10 +229,11 @@ a:focus {
 }
 .download-section {
   width: 100%;
-  padding: 50px 0;
+  /*padding: 50px 0;*/
+  /*padding: 0 0 10px 0;*/
   color: white;
   /*background: url(../img/downloads-bg.jpg) no-repeat center center scroll;*/
-  /*background-color: black;*/
+  background-color: black;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   background-size: cover;
@@ -248,7 +249,8 @@ a:focus {
     padding-top: 250px;
   }
   .download-section {
-    padding: 100px 0;
+    /*padding: 100px 0;*/
+    padding: 50px 0 100px 0;
   }
   #map {
     height: 400px;
@@ -350,4 +352,13 @@ body {
 }
 .intro-text{
   padding-top: 100px;
+}
+.colored{
+  color: #42DCA3;
+}
+dd {
+  font-size: 20px;
+}
+dt {
+  font-size: 20px;
 }
