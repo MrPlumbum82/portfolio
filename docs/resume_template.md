@@ -11,8 +11,268 @@ To help you make a decision on my application I have linked my personal website 
 Sincerely,
 
 Sadan Mallhi
+Website: www.sadanmallhi.com
+
+# Kuali
+
+To Whom It May Concern,
+
+I am excited to apply for the Software Engineer position at Kuali, which I saw advertised on your website. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I'm an embedded systems enthusiast and worked with various micro controllers such as the Arduino Uno. I helped engineer a liquid volume sensor which would be integrated into any automated brewery setup. I also spend most of my weekends hacking around with my raspberry pi.
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
 
 Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+#Stackoverflow Wikimedia
+
+I am excited to apply for the Software Engineer position at Wikimedia, which I saw advertised on stackoverflow.com/jobs. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy.
+
+During my bachelors I was very deeply interested in topics such as Compilers, Context Free Grammars, Regular Expressions, etc. I elected to take a 'Theory of Compuatation' course which helped me learn a great deal about Finite Automata and Push Down Automata.
+
+I'm an embedded systems enthusiast and worked with various micro controllers such as the Arduino Uno. I helped engineer a liquid volume sensor which would be integrated into any automated brewery setup. I also spend most of my weekends hacking around with my raspberry pi.
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+
+# Craigslist chennai Full Stack Developer including (Node.js, Java/J2EE/Spring)
+
+To Whom It May Concern,
+
+I am excited to apply for the Full Stack Developer position at your firm, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I'm an embedded systems enthusiast and worked with various micro controllers such as the Arduino Uno. I helped engineer a liquid volume sensor which would be integrated into any automated brewery setup. I also spend most of my weekends hacking around with my raspberry pi.
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+# Craigslist sfbay App Developer/ Software Coder (mountain view
+
+To Whom It May Concern,
+
+I am excited to apply for the Software Developer position at your firm, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I'm an embedded systems enthusiast and worked with various micro controllers such as the Arduino Uno. I helped engineer a liquid volume sensor which would be integrated into any automated brewery setup. I also spend most of my weekends hacking around with my raspberry pi.
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+# Craigslist Bangalore Full Stack Developer including (Node.js, Angular 2/4, Etc.)
+
+To Whom It May Concern,
+
+I am excited to apply for the Full Stack position at your firm, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I'm an embedded systems enthusiast and worked with various micro controllers such as the Arduino Uno. I helped engineer a liquid volume sensor which would be integrated into any automated brewery setup. I also spend most of my weekends hacking around with my raspberry pi.
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+# Craigslist sfbay Customer-facing web developer - LAMP, framework, bash console (Telecommute)
+
+To Whom It May Concern,
+
+I am excited to apply for the Web Developer position at Vines OS, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I'm an embedded systems enthusiast and worked with various micro controllers such as the Arduino Uno. I helped engineer a liquid volume sensor which would be integrated into any automated brewery setup. I also spend most of my weekends hacking around with my raspberry pi.
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+# Craigslist LA Software Developer wanted for Decentralized Applications
+
+To Whom It May Concern,
+
+I am excited to apply for the Software Developer position at your firm, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I've had a year of experience working with Decentralized Application. I single handed created a Bitcoin Wallet browser extension by the name of "Quickbit.eu" which is currently published on the Chrome and Firefox extension stores. I worked with a team of developers creating the "Quickbit.eu" Bitcoin exchange platform and created the web service for the Quickbit Bitcoin Wallet iOS app currently live on the apple apps store.
+
+I am also highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I'm an embedded systems enthusiast and worked with various micro controllers such as the Arduino Uno. I helped engineer a liquid volume sensor which would be integrated into any automated brewery setup. I also spend most of my weekends hacking around with my raspberry pi.
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+# Craigslist ny brooklyn software hardware device engineer
+
+To Whom It May Concern,
+
+I am excited to apply for the Device Engineer position at your firm, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I'm an embedded systems enthusiast and worked with various micro controllers such as the Arduino Uno. I helped engineer a liquid volume sensor which would be integrated into any automated brewery setup. I also spend most of my weekends hacking around with my raspberry pi.
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+# Craigslist bangalore GIG
+
+To Whom It May Concern,
+
+I am excited to apply for the Software Engineer position at your firm, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+# Craigslist seattle sphere
+
+To Whom It May Concern,
+
+I am excited to apply for the Lead Developer position at Sphere, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+# Craigslist bay area 	jabico 
+
+To Whom It May Concern,
+
+I am excited to apply for the Web Developer position at Jabico, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
+
+# Craigslist Chicago Blockchain
+
+To Whom It May Concern,
+
+I am excited to apply for the Developer position at your Startup, which I saw advertised on craigslist. My background as a full stack developer, along with my education in computer science, have allowed me to attain a strong foundation of technical skills. In addition to my development skills, I also possess a passion for learning new technologies, automating repetitive tasks and managing web servers. I am confident I will be an excellent addition to your organization.
+
+I have a years experience working with blockchain-based technologies. I worked on creating entire bitcoin exchange platforms, bitcoin wallet browser extensions and have integrated many crypto-currency API's such as coinbase, bitgo, coinmama and others. I also have recently gained a huge interest in creating Ethereum Applications or DApps as they are called.
+
+I have managed to muster up a wide range of technical skills during my academic and professional career. I am highly skilled in both client and server side Javascript and have also worked in powerful PHP frameworks such as CodeIgniter. I have always managed to delivery quality code in a short period of time and in the past six months have grown an uncontrollable urge to write test driven code. Test driven development has become my core programming philosophy. 
+
+I also have experience with DevOps technologies such as dockers and very recently worked on engineering an efficient and productive continuous integration pipeline for my company. I actively seek out new technologies to learn and try to find new techniques to help me improve my skills as a developer.
+
+To help you make a decision on my application I have attached my Resume to this email and have linked my personal website along with my github and linkedin profiles at the bottom. I would love to be given to chance to discuss the opportunity with you further. If you have any questions about my background, please do not hesitate to reach out to me at sadanmallhi@gmail.com. I look forward to hearing from you!
+
+Sincerely,
+
+Sadan Mallhi
+
+Website: www.sadanmallhi.com
+Github: https://github.com/MrPlumbum82
+LinkedIn: www.linkedin.com/in/sadanmallhi
 
 # Modus Create Inc
 
