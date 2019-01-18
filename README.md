@@ -6,6 +6,11 @@ Finish the Skills portion
 Upload the new CV pdf
 Update Linked in
 
+## Docker Commands
+sudo docker build -t portfolio:portfolio .
+sudo docker images
+sudo docker run -itd --name portfolio --publish 8080:80 portfolio:portfolio
+
 
 ## Ideas 
 
