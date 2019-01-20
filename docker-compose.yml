@@ -1,8 +1,8 @@
-version: '3'
+version: '2'
 services:
   portoflio:
     container_name: portfolio
     restart: always
     build: .
     ports:
-     - "8080:80"
+      - "8000:80"
