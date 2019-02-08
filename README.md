@@ -1,5 +1,11 @@
 # My Portfolio
 
+## Run Locally
+`docker-compose up -d`
+
+## Deploy on Prod
+` docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d`
+
 Get DONE TODAY
 Anime JS front page
 Finish the Skills portion
@@ -10,7 +16,6 @@ Update Linked in
 sudo docker build -t portfolio:portfolio .
 sudo docker images
 sudo docker run -itd --name portfolio --publish 8080:80 portfolio:portfolio
-
 
 ## Ideas 
 
