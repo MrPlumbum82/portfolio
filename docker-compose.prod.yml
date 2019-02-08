@@ -1,0 +1,16 @@
+version: '3'
+
+services:
+  portoflio:
+    networks:
+      - web
+      - default
+    labels:
+      - "traefik.enable=true"
+      - "traefik.docker.network=web"
+      - "traefik.frontend.rule=Host: www.sadanmallhi.com, sadanmallhi.com"
+      - "traefik.ports=80"
+
+networks:
+  web:
+    external: true
