@@ -6,10 +6,12 @@
 ## Deploy on Prod
 ` docker-compose -f docker-compose.yml -f docker-compose.prod.yml up -d`
 
-## Docker Commands
-sudo docker build -t portfolio:portfolio .
-sudo docker images
-sudo docker run -itd --name portfolio --publish 8080:80 portfolio:portfolio
+## Old Docker Commands
+  ``` bash
+  sudo docker build -t portfolio:portfolio .
+  sudo docker images
+  sudo docker run -itd --name portfolio --publish 8080:80 portfolio:portfolio
+  ```
 
 ## Ideas 
   - Some awesome animation at the home page
