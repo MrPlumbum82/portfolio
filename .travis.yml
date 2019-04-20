@@ -10,12 +10,13 @@ script:
   # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   # - docker push mrplum/portfolio:latest
 
-deploy:
+before_deploy:
   provider: script
   script: bash ./scripts/publish.sh
   on:
     branch: master
 
+deploy:
   provider: script
   script: bash ./scripts/deploy.sh
   on:
