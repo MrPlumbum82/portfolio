@@ -15,3 +15,8 @@ deploy:
   script: bash ./scripts/publish.sh
   on:
     branch: master
+
+  provider: script
+  script: bash ./scripts/deploy.sh
+  on:
+    branch: master
