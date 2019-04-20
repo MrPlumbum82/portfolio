@@ -11,8 +11,7 @@ script:
   # - docker push mrplum/portfolio:latest
 
 before_deploy:
-  provider: script
-  script: bash ./scripts/publish.sh
+  script: ./scripts/publish.sh
   on:
     branch: master
 
