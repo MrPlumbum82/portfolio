@@ -5,13 +5,13 @@ services:
 
 install: true
 
-script:
+before_script:
   - docker build -t mrplum/portfolio .
   # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   # - docker push mrplum/portfolio:latest
 
-before_deploy:
-  script: ./scripts/publish.sh
+script:
+  - ./scripts/publish.sh
   on:
     branch: master
 
