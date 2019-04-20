@@ -50,11 +50,9 @@ sudo docker run -itd --name portfolio --publish 8080:80 portfolio:portfolio
   - forestfire
   - voronoi
   - face manip
-
   - toads and frogs
   - myastroids
   - my racing
-
   - prof razzaghi paper
 
 ## Other stuff I Could Do 
