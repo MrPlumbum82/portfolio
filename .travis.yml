@@ -7,5 +7,11 @@ install: true
 
 script:
   - docker build -t mrplum/portfolio .
-  - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push mrplum/portfolio:latest
+  # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+  # - docker push mrplum/portfolio:latest
+
+deploy:
+  provider: script
+  script: bash scripts/publish
+  on:
+    branch: master
