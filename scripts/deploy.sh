@@ -3,10 +3,10 @@
 sshpass -p $VPS_PASSWORD scp ./docker-compose.prod.yml $VPS_USER@$VPS_IP:/root/tmp/docker-compose-portfolio.yml
 
 # SSH Login
-sshpass -p $VPS_PASSWORD ssh $VPS_USER@$VPS_IP
+# sshpass -p $VPS_PASSWORD ssh $VPS_USER@$VPS_IP
 
 # Docker Login 
-echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+# echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
 
 # Run Docker Compose
 echo "ALMOST DONE BOIS!"

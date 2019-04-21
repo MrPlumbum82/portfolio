@@ -16,9 +16,6 @@ before_install:
   - sudo apt-get update
   - sudo apt-get -y -o Dpkg::Options::="--force-confnew" install docker-ce
 
-  # before_install:
-  # - bash ./scripts/update_docker.sh
-
 jobs:
   include:
     - stage: Build Docker Image And Publish Artifact
