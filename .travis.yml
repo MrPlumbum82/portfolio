@@ -5,16 +5,14 @@ services:
 
 install: true
 
-before_script:
-  - docker build -t mrplum/portfolio .
-
   # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
   # - docker push mrplum/portfolio:latest
 
-script: ./scripts/publish.sh
-
-deploy:
-  provider: script
-  script: bash ./scripts/deploy.sh
-  on:
-    branch: master
+jobs:
+  include:
+    - stage: Build Docker Image 
+      script: docker build -t mrplum/portfolio .
+    - stage: Publish Artifact
+      script: bash ./scripts/publish.sh
+    - stage: Deploy to VPS
+      script: bash ./scripts/deploy.sh
