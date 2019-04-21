@@ -6,13 +6,10 @@ services:
 install: true
 
 before_install:
-  - './scripts/update_docker.sh'
+  - bash ./scripts/update_docker.sh
 
 jobs:
   include:
-    - stage: Check Docker Version
-      script: docker version
-
     - stage: Build Docker Image And Publish Artifact
       script: docker build -t mrplum/portfolio .
       deploy:
