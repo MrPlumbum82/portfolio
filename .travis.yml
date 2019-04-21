@@ -10,9 +10,8 @@ install: true
 
 jobs:
   include:
-    - stage: Build Docker Image 
+    - stage: Build Docker Image And Publish Artifact
       script: docker build -t mrplum/portfolio .
-    - stage: Publish Artifact
-      script: bash ./scripts/publish.sh
+      deploy: bash ./scripts/publish.sh
     - stage: Deploy to VPS
       script: bash ./scripts/deploy.sh
