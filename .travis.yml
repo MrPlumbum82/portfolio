@@ -3,18 +3,13 @@ language: generic
 services:
   - docker
 
-addons:
-  apt:
-    packages:
-    - sshpass
-
-install: true
-
 before_install:
   - curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
   - sudo add-apt-repository "deb [arch=amd64] https://download.docker.com/linux/ubuntu $(lsb_release -cs) stable"
   - sudo apt-get update
   - sudo apt-get -y -o Dpkg::Options::="--force-confnew" install docker-ce
+
+install: true
 
 jobs:
   include:
@@ -25,4 +20,6 @@ jobs:
         script: bash ./scripts/publish.sh
 
     - stage: Deploy to VPS
+      before_script:
+        - sudo apt-get install -qq sshpass
       script: bash ./scripts/deploy.sh
