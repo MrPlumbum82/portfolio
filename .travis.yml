@@ -11,7 +11,7 @@ before_install:
 jobs:
   include:
     - stage: Build Docker Image And Publish Artifact
-      script: docker build -t mrplum/portfolio -t mrplumb/portfolio:$BUILD_NUMBER .
+      script: docker build -t mrplum/portfolio:latest -t mrplumb/portfolio:$BUILD_NUMBER .
       deploy:
         provider: script
         script: bash ./scripts/publish.sh
