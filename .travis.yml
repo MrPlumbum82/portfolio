@@ -11,13 +11,10 @@ before_install:
 jobs:
   include:
     - stage: Build Docker Image And Publish Artifact
-      script: docker build -t mrplum/portfolio .
+      script: docker build -t mrplum/portfolio -t mrplumb/portfolio:$BUILD_NUMBER .
       deploy:
         provider: script
         script: bash ./scripts/publish.sh
 
     - stage: Deploy to VPS
       script: bash ./scripts/deploy.sh
-
-# - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-# - docker push mrplum/portfolio:latest
