@@ -2,6 +2,9 @@ version: '3'
 
 services:
   portoflio:
+    image: mrplum/portfolio:latest
+    container_name: portfolio
+    restart: always
     networks:
       - web
       - default
