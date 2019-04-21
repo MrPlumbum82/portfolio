@@ -5,8 +5,5 @@ sshpass -p $VPS_PASSWORD scp -o stricthostkeychecking=no ./docker-compose.prod.y
 # SSH Login and Docker Login
 sshpass -p $VPS_PASSWORD ssh -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP "echo $DOCKER_PASSWORD | docker login -u $DOCKER_USERNAME --password-stdin"
 
-# Testing
-sshpass -p $VPS_PASSWORD ssh -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP "pwd"
-
 # Run Docker Compose
-# sshpass -p $VPS_PASSWORD ssh -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP "docker-compose -f /opt/tmp/docker-compose-portfolio.yml up -d"
+sshpass -p $VPS_PASSWORD ssh -o StrictHostKeyChecking=no $VPS_USERNAME@$VPS_IP "docker-compose -f /opt/tmp/docker-compose-portfolio.yml up -d"
