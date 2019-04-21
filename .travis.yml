@@ -10,6 +10,8 @@ install: true
 
 jobs:
   include:
+    - stage: Check Docker Version
+      script: docker version
 
     - stage: Build Docker Image And Publish Artifact
       script: docker build -t mrplum/portfolio .
