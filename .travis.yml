@@ -5,8 +5,8 @@ services:
 
 install: true
 
-  # - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  # - docker push mrplum/portfolio:latest
+before_install:
+  - './scripts/update_docker.sh'
 
 jobs:
   include:
@@ -21,3 +21,6 @@ jobs:
 
     - stage: Deploy to VPS
       script: bash ./scripts/deploy.sh
+
+# - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
+# - docker push mrplum/portfolio:latest
