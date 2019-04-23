@@ -6,7 +6,7 @@
 # DOCKERHUB_REPO (local)
 # DOCKERHUB_TAG (local)
 
-# Build Docker Image (assuming this script exists one dir deep)
+# Build Docker Image
 docker build -t mrplum/portfolio .
 
 # Login in to push to docker hub
