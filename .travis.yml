@@ -16,11 +16,6 @@ jobs:
     - stage: Build Docker Image And Publish Artifact
       script: bash ./scripts/publish.sh
 
-      # script: docker build -t mrplum/portfolio .
-      # deploy:
-        # provider: script
-        # script: bash ./scripts/publish.sh
-
     - stage: Deploy to VPS
       before_script:
         - sudo apt-get install -qq sshpass

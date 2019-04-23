@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Bash Variables
-# DOCKERHUB_USERNAME (env var)
-# DOCKERHUB_PASSWORD (env var)
-# DOCKERHUB_REPO (local)
-# DOCKERHUB_TAG (local)
+# DOCKERHUB_USERNAME (env var) (update var name)
+# DOCKERHUB_PASSWORD (env var) (update var name)
+# DOCKERHUB_REPO (local) (create this)
+# DOCKERHUB_TAG (local) (create this)
 
 # Build Docker Image
 docker build -t mrplum/portfolio .
