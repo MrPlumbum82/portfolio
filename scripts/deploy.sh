@@ -1,4 +1,13 @@
 #!/bin/bash
+
+# Bash Variables
+# VPS_USERNAME (env var)
+# VPS_PASSWORD (env var)
+# VPS_IP (env var)
+# DOCKERHUB_USERNAME (env var)
+# DOCKERHUB_REPO (local)
+# DOCKERHUB_TAG (local)
+
 # Copy Prod YAML File to VPS (update the yml to pull from docker hub)
 sshpass -p $VPS_PASSWORD scp -o stricthostkeychecking=no ./docker-compose.prod.yml $VPS_USERNAME@$VPS_IP:/opt/tmp/docker-compose-portfolio.yml
 
