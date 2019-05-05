@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  portoflio:
+  portfolio:
     image: mrplum/portfolio:latest
     container_name: portfolio
     restart: always
@@ -11,8 +11,8 @@ services:
     labels:
       - "traefik.enable=true"
       - "traefik.docker.network=web"
-      - "traefik.frontend.rule=Host: www.sadanmallhi.com, sadanmallhi.com"
-      - "traefik.ports=9000"
+      - "traefik.portfolio.frontend.rule=Host: www.sadanmallhi.com, sadanmallhi.com"
+      - "traefik.portfolio.ports=9000"
 
 networks:
   web:
