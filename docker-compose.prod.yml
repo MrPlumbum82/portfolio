@@ -9,11 +9,12 @@ services:
       - web
       - default
     labels:
-      - "traefik.enable=true"
-      - "traefik.docker.network=web"
-      - "traefik.portfolio.frontend.rule=Host: www.sadanmallhi.com, sadanmallhi.com"
-      - "traefik.portfolio.ports=9000"
-
+#      - "traefik.enable=true"
+#      - "traefik.docker.network=web"
+#      - "traefik.portfolio.frontend.rule=Host: www.sadanmallhi.com, sadanmallhi.com"
+#      - "traefik.portfolio.ports=9000"
+      - "traefik.http.routers.og_portfolio.rule=Host(`www.sadanmallhi.com`,`sadanmallhi.com`)"
+      - "traefik.http.routers.og_portfolio.tls.certResolver=sadans-acme-resolver"
 networks:
   web:
     external: true
