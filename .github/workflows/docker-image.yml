@@ -1,0 +1,45 @@
+#    run: docker build . --file Dockerfile --tag portfolio:$(date +%s)
+name: Docker Image CI
+
+on:
+  push:
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
+
+jobs:
+
+  build-and-publish:
+
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Docker Build & Push Action
+      uses: mr-smithers-excellent/docker-build-push@v5.6
+      with:
+        # Name of the Docker image
+        image: portfolio
+        # Tags override for Docker image
+        tags: $(date +%s)
+        # Target Docker registry
+        registry: hub.docker.com
+        # Location of Dockerfile, if not Dockerfile in root directory
+        #dockerfile: Dockerfile
+        # Directory to run `docker build` from, if not project root
+        #directory: # optional
+        # Docker build arguments passed via --build-arg
+        #buildArgs: # optional
+        # Docker build labels passed via --label
+        #labels: # optional
+        # Docker build target passed via --target
+        #target: # optional
+        # Docker registry username
+        username: $DH_USERNAME
+        # Docker registry password
+        password: $DH_PASSWORD
+        # GitHub organization to push image to (if not current)
+        #gitHubOrg: # optional
+        # Adds latest tag to auto-generated GitOps tag
+        addLatest: true
+        # Suffixes a build timestamp to the branch-based Docker tag
+        addTimestamp: true
