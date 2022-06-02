@@ -1,36 +1,44 @@
-name: Docker Build And Push To Docker Hub
+name: Docker Image CI
 
 on:
   push:
-    branches:
-      - master
+    branches: [ master ]
+  pull_request:
+    branches: [ master ]
 
 jobs:
-  build:
-    name: Build Spring Boot
+
+  build-and-publish:
+
     runs-on: ubuntu-latest
+
     steps:
-      - name: Git Checkout Code
-        uses: actions/checkout@v1
-        id: git_checkout
-
-      - name: Set up JDK 12.0
-        uses: actions/setup-java@v1
-        with:
-          java-version: 12.0
-
-      - name: Build with Gradle
-        run: ./gradlew build
-
-      - name: Build Docker Image
-        id: buildAndPushImage
-        uses: abhishek-070/docker-image-build-push-action@v1.0
-        with:
-          registry_url: 'docker.io'
-          repository_name: 'portfolio'
-          user_name: ${{ secrets.DH_USERNAME }}
-          password: ${{ secrets.DH_PASSWORD }}
-          image_version: 'v1.0'
-          docker_file: '.'
-      - name: Get pre step result output image_pull_url
-        run: echo "The time was ${{ steps.buildAndPushImage.outputs.image_pull_url }}"
+    - name: Docker Build & Push Action
+      uses: mr-smithers-excellent/docker-build-push@v5.6
+      with:
+        # Name of the Docker image
+        image: portfolio
+        # Tags override for Docker image
+        tags: $(date +%s)
+        # Target Docker registry
+        registry: hub.docker.com
+        # Location of Dockerfile, if not Dockerfile in root directory
+        #dockerfile: Dockerfile
+        # Directory to run `docker build` from, if not project root
+        #directory: # optional
+        # Docker build arguments passed via --build-arg
+        #buildArgs: # optional
+        # Docker build labels passed via --label
+        #labels: # optional
+        # Docker build target passed via --target
+        #target: # optional
+        # Docker registry username
+        username: ${{ secrets.DH_USERNAME }}
+        # Docker registry password
+        password: ${{ secrets.DH_PASSWORD }}
+        # GitHub organization to push image to (if not current)
+        #gitHubOrg: # optional
+        # Adds latest tag to auto-generated GitOps tag
+        addLatest: true
+        # Suffixes a build timestamp to the branch-based Docker tag
+        addTimestamp: true
