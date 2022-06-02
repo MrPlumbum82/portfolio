@@ -21,9 +21,8 @@ jobs:
       uses: mr-smithers-excellent/docker-build-push@v5.6
       with:
         image: mrplum/portfolio
-        tags: $(date +%s)
+        tags: latest
         registry: registry.hub.docker.com
         username: ${{ secrets.DH_USERNAME }}
         password: ${{ secrets.DH_PASSWORD }}
-        addLatest: true
 
