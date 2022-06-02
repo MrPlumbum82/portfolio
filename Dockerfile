@@ -1,7 +1,2 @@
-# FROM nginx:alpine
-# COPY ./web /usr/share/nginx/html
-
-FROM nginx:1.12-alpine
+FROM nginx:latest
 COPY ./web /usr/share/nginx/html
-EXPOSE 9001
-CMD ["nginx", "-g", "daemon off;"]
