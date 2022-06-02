@@ -10,7 +10,7 @@ services:
     networks:
       - web
     labels:
-      - "traefik.http.routers.portfolio.rule=Host(`new.sadanmallhi.com`)"
+      - "traefik.http.routers.portfolio.rule=Host(`www.sadanmallhi.com`,`sadanmallhi.com`)"
       - "traefik.http.routers.portfolio.tls.certResolver=sadans-acme-resolver"
       - "traefik.http.services.portfolio.loadbalancer.server.port=9001"
 networks:
