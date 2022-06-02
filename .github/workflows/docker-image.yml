@@ -19,7 +19,7 @@ jobs:
         image: portfolio
         tags: $(date +%s)
         registry: registry.hub.docker.com
-        #dockerfile: Dockerfile
+        dockerfile: Dockerfile.ci
         username: ${{ secrets.DH_USERNAME }}
         password: ${{ secrets.DH_PASSWORD }}
 
