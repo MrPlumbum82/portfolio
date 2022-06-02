@@ -42,7 +42,7 @@ jobs:
       with:
         host: ${{ secrets.VPS_IP }}
         USERNAME: ${{ secrets.VPS_USER }}
-        PORT: 2
+        PORT: 22
         KEY: ${{ secrets.SSH_KEY }}
         script: |
           "docker pull mrplum/portfolio"
