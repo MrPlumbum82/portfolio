@@ -12,10 +12,7 @@ services:
     labels:
       - "traefik.http.routers.portfolio.rule=Host(`www.sadanmallhi.com`,`sadanmallhi.com`)"
       - "traefik.http.routers.portfolio.tls.certResolver=sadans-acme-resolver"
-#      - "traefik.http.routers.portfolio.entrypoints=websecure"
-#      - "traefik.http.middlewares.https_redirect.redirectscheme.scheme=https"
       - "traefik.http.services.portfolio.loadbalancer.server.port=9001"
-      - "traefik.docker.network=web"
 networks:
   web:
     external: true

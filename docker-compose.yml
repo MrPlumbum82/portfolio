@@ -1,7 +1,7 @@
 version: '3'
 
 services:
-  portoflio:
+  portfolio:
     container_name: portfolio
     restart: always
     build: .
