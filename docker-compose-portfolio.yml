@@ -9,7 +9,6 @@ services:
        - "9001:80"
     networks:
       - web
-      - default
     labels:
       - "traefik.http.routers.portfolio.rule=Host(`new.sadanmallhi.com`)"
       - "traefik.http.routers.portfolio.tls.certResolver=sadans-acme-resolver"
