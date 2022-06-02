@@ -26,3 +26,22 @@ jobs:
         username: ${{ secrets.DH_USERNAME }}
         password: ${{ secrets.DH_PASSWORD }}
 
+    - name: Copy repository contents via scp
+      uses: appleboy/scp-action@master
+      env:
+        HOST: ${{ secrets.HOST }}
+        USERNAME: ${{ secrets.USERNAME }}
+        PORT: 22
+        KEY: ${{ secrets.SSHKEY }}
+      with:
+        source: "."
+        target: "/opt/tmp"
+
+    - name: Executing remote command
+      uses: appleboy/ssh-action@master
+      with:
+        host: ${{ secrets.HOST }}
+        USERNAME: ${{ secrets.USERNAME }}
+        PORT: 2
+        KEY: ${{ secrets.SSHKEY }}
+        script: pwd
