@@ -14,7 +14,7 @@ services:
       - "traefik.http.routers.portfolio.rule=Host(`www.sadanmallhi.com`,`sadanmallhi.com`)"
       - "traefik.http.routers.portfolio.tls.certResolver=sadans-acme-resolver"
       - "traefik.http.services.portfolio.loadbalancer.server.port=9001"
-      - "traefik.http.services.portfolio.loadbalancer.server.scheme=https"
+      - "traefik.http.services.portfolio.loadbalancer.server.scheme=http"
 networks:
   web:
     external: true
