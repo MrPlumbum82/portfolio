@@ -15,14 +15,14 @@ jobs:
     steps:
     
     - name: Check out code
-      uses: actions/checkout@v2    
+      uses: actions/checkout@v2
+      
     - name: Docker Build & Push Action
       uses: mr-smithers-excellent/docker-build-push@v5.6
       with:
-        image: portfolio
+        image: mrplum/portfolio
         tags: $(date +%s)
         registry: registry.hub.docker.com
-        #dockerfile: Dockerfile.ci
         username: ${{ secrets.DH_USERNAME }}
         password: ${{ secrets.DH_PASSWORD }}
 
