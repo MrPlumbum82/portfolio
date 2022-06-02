@@ -21,7 +21,7 @@ jobs:
         # Tags override for Docker image
         tags: $(date +%s)
         # Target Docker registry
-        registry: hub.docker.com
+        registry: registry.hub.docker.com
         # Location of Dockerfile, if not Dockerfile in root directory
         #dockerfile: Dockerfile
         # Directory to run `docker build` from, if not project root
