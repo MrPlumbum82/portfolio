@@ -46,4 +46,4 @@ jobs:
         KEY: ${{ secrets.SSH_KEY }}
         script: |
           "sudo docker pull registry.hub.docker.com/mrplum/portfolio"
-          "sudo docker-compose -f /opt/tmp/docker-compose-portfolio.yml up -d"
+#          "sudo docker-compose -f /opt/tmp/docker-compose-portfolio.yml up -d"
