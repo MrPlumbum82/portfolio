@@ -44,6 +44,6 @@ jobs:
         USERNAME: ${{ secrets.VPS_USER }}
         PORT: 22
         KEY: ${{ secrets.SSH_KEY }}
-        script: "touch /opt/tmp/your_poop"
-          #"pwd"
-#          "sudo docker-compose -f /opt/tmp/docker-compose-portfolio.yml up -d"
+        script: |
+          docker pull registry.hub.docker.com/mrplum/portfolio
+          docker-compose -f /opt/tmp/docker-compose-portfolio.yml up -d
