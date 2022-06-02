@@ -25,4 +25,5 @@ jobs:
         registry: registry.hub.docker.com
         username: ${{ secrets.DH_USERNAME }}
         password: ${{ secrets.DH_PASSWORD }}
+        addLatest: true
 
