@@ -34,8 +34,8 @@ jobs:
         PORT: 22
         KEY: ${{ secrets.SSH_KEY }}
       with:
-        source: "."
-        target: "/opt/tmp"
+        source: "./docker-compose.prod.yml"
+        target: "/opt/tmp/docker-compose-portfolio.yml"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
@@ -44,4 +44,7 @@ jobs:
         USERNAME: ${{ secrets.VPS_USER }}
         PORT: 2
         KEY: ${{ secrets.SSH_KEY }}
-        script: pwd
+        script: |
+          "docker pull mrplum/portfolio"
+          "docker-compose -f /opt/tmp/docker-compose-portfolio.yml up -d"
+
