@@ -45,6 +45,6 @@ jobs:
         PORT: 22
         KEY: ${{ secrets.SSH_KEY }}
         script: |
-          "docker pull mrplum/portfolio"
+          "docker pull registry.hub.docker.com/mrplum/portfolio"
           "docker-compose -f /opt/tmp/docker-compose-portfolio.yml up -d"
 
