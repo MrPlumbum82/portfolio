@@ -34,8 +34,8 @@ jobs:
         PORT: 22
         KEY: ${{ secrets.SSH_KEY }}
       with:
-        source: "./docker-compose.prod.yml"
-        target: "/opt/tmp/docker-compose-portfolio.yml"
+        source: "./docker-compose-portfolio.yml"
+        target: "/opt/tmp/"
 
     - name: Executing remote command
       uses: appleboy/ssh-action@master
